@@ -4,7 +4,8 @@
       "type": "http",
       "url": "https://fe-journey-main-ktantdfjcs.cn-hangzhou.fcapp.run/mcp/agent",
       "headers": {
-        "Authorization": "Bearer ${AGENT_JOURNEY_API_KEY}"
+        "Authorization": "Bearer ${AGENT_JOURNEY_API_KEY}",
+        "X-Journey-Client": "plugin/agent-journey@0.2.0"
       }
     }
   }
