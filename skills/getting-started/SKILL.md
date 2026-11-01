@@ -18,7 +18,6 @@ description: Agent Journey 刚装好、第一次使用，或用户问「这个�
    - 给我一道 Agent 记忆模块的实战题，做完帮我验收。（约 2 点）
    - 下周面字节全栈，最近最常考什么？（约 6~8 点）
 3. 用户挑了就直接按对应 Skill 去做：`tech-knowledge`（技术问答）、`interview-prep`（面经与模拟面试）、`project-practice`（实战题卡）、`study-coach`（学习规划与自测）。
-4. 只在用户问起时再提：同一个 Key 和余额也能用 Invest Journey（A 股恐慌指数、宽基相对长期中枢位置、宏观数据等加工读数），装法见 https://www.agent-journey.cn/developer 。
 
 不要一上来就列出全部工具，也不要主动推销会员。
 
