@@ -9,7 +9,7 @@
       "name": "agent-journey",
       "source": "./",
       "description": "把 Agent Journey 的知识体系、面经、题卡接进你自己的 Agent（MCP + Skills）。",
-      "version": "0.2.0",
+      "version": "0.3.0",
       "category": "learning",
       "keywords": ["frontend", "interview", "learning", "mcp", "chinese"]
     }
