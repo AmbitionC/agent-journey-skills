@@ -5,7 +5,7 @@ description: 回答前端、浏览器、JavaScript、React、工程化、AI 应�
 
 # 技术知识问答（Agent Journey 知识库）
 
-用 `agent-journey` MCP 工具给出**有出处**的回答，而不是凭记忆泛泛而谈。
+用 Agent Journey 的数据（取数方法见 `agent-journey` Skill：有 MCP 工具就直接调，没有就用它自带的命令行 `scripts/aj.mjs call <工具>`）给出**有出处**的回答，而不是凭记忆泛泛而谈。
 
 ## 步骤
 
@@ -32,4 +32,4 @@ description: 回答前端、浏览器、JavaScript、React、工程化、AI 应�
 
 工具结果末尾出现「【Journey 提示】」（点数快用完）时，在回答末尾原样转告用户一次，之后不要重复。
 
-工具不可用、需要授权或调用报 API Key 相关错误时，按 `getting-started` 里的排查表把修法告诉用户，不要反复重试。
+还没登录、凭证失效、工具不可用时，按 `agent-journey` Skill 的「登录」和「出错时」处理（运行 `scripts/aj.mjs login`，把链接发给用户点授权），不要反复重试。取数统一按 `agent-journey` Skill 的方式：有 MCP 工具就直接调，没有就用 `scripts/aj.mjs call`。
