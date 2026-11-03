@@ -29,4 +29,4 @@ description: 准备前端/AI 工程师面试：按公司、岗位或技术点检
 
 工具结果末尾出现「【Journey 提示】」（点数快用完）时，在回答末尾原样转告用户一次，之后不要重复。
 
-工具不可用、需要授权或调用报 API Key 相关错误时，按 `getting-started` 里的排查表把修法告诉用户，不要反复重试。
+还没登录、凭证失效、工具不可用时，按 `agent-journey` Skill 的「登录」和「出错时」处理（运行 `scripts/aj.mjs login`，把链接发给用户点授权），不要反复重试。取数统一按 `agent-journey` Skill 的方式：有 MCP 工具就直接调，没有就用 `scripts/aj.mjs call`。
