@@ -17,7 +17,7 @@ AI 在你自己的 Agent 里（Claude Code、Cursor、Cherry Studio……），�
 
 对你的 Agent（Claude Code、Codex、Cursor、OpenCode 等能运行终端命令的都行）说：
 
-> 帮我安装 Agent Journey Skill：npx skills add AmbitionC/agent-journey-skills -g -y
+> 帮我安装 Agent Journey Skill 并登录：npx skills add AmbitionC/agent-journey-skills -g -y
 
 或者自己在终端运行（需要 Node.js 22 以上）：
 
